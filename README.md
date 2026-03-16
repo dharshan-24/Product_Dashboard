@@ -127,7 +127,7 @@ python manage.py createsuperuser
 
 python manage.py runserver
 
-#Open browser:
+# Open browser:
 
 http://127.0.0.1:8000
 
@@ -137,16 +137,22 @@ http://127.0.0.1:8000
 
 Register / Login
         ↓
+        
    Dashboard
         ↓
+        
    Add Product
         ↓
+        
    Add to Cart
         ↓
+        
     Cart Page
         ↓
+        
     Checkout
         ↓
+        
    Success Page
 
 ---
