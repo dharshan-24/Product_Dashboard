@@ -148,18 +148,18 @@ http://127.0.0.1:8000
 
 # 📊 Application Flow
 
-  Register / Login
+   Register / Login
         ↓
         
-   Dashboard
+    Dashboard
         ↓
 
         
-   Add Product
+    Add Product
         ↓
         
         
-   Add to Cart
+    Add to Cart
         ↓
         
         
