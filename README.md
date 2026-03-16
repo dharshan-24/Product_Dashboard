@@ -206,6 +206,12 @@ http://127.0.0.1:8000
 
 ---
 
+# CheckOut page
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-16 203854" src="https://github.com/user-attachments/assets/8666ed41-f501-44d6-86d3-91c3dcc3045f" />
+
+---
+
 #  Successfully page
 
 <img width="1920" height="1080" alt="Screenshot 2026-03-16 201731" src="https://github.com/user-attachments/assets/9c620ba0-e2f3-4a11-9f07-44c922866b84" />
