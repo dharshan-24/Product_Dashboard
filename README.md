@@ -27,8 +27,6 @@ The frontend is implemented using HTML and CSS, and it follows responsive UI pri
 
 Clone the repository
 
-git clone https://github.com/username/product-dashboard.git
-
 cd product-dashboard
 
 Install dependencies
@@ -48,8 +46,6 @@ python manage.py runserver
 1. Create Google OAuth Client
    
 2. Add redirect URL:
-
-http://localhost:8000/accounts/google/login/callback/
 
 3. Add Client ID and Secret in Django Admin
 
