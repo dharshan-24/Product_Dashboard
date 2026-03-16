@@ -1,0 +1,16 @@
+
+<h1>Your Cart</h1>
+
+{% for product in products %}
+
+<p>{{ product.title }} - {{ product.price }}</p>
+
+{% empty %}
+
+<p>Cart is empty</p>
+
+{% endfor %}
+
+<br>
+
+<a href="/checkout/">Checkout</a>

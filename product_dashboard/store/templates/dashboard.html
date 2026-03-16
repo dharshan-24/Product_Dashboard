@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+
+<h1>Product Dashboard</h1>
+
+<a href="/add-product/">Add Product</a> |
+<a href="/cart/">Cart</a> |
+<a href="/accounts/logout/">Logout</a>
+
+<hr>
+
+<h2>Products</h2>
+
+
+{% for product in products %}
+    <div>
+        <h3>{{ product.title }}</h3>
+        <p>Price: {{ product.price }}</p>
+        <p>{{ product.description }}</p>
+
+        <a href="/add-to-cart/{{ product.id }}/">Add to Cart</a>
+    </div>
+    <hr>
+{% empty %}
+    <p>No products available</p>
+{% endfor %}
+
+</body>
+</html>
