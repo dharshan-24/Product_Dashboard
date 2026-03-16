@@ -131,6 +131,26 @@ python manage.py runserver
 
 http://127.0.0.1:8000
 
+---
+
+# 📊 Application Flow
+
+Register / Login
+        ↓
+   Dashboard
+        ↓
+   Add Product
+        ↓
+   Add to Cart
+        ↓
+    Cart Page
+        ↓
+    Checkout
+        ↓
+   Success Page
+
+---
+
 ## UI Page project
 
 # Login Page
