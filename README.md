@@ -200,6 +200,11 @@ http://127.0.0.1:8000
 <img width="1920" height="1080" alt="Screenshot 2026-03-16 201609" src="https://github.com/user-attachments/assets/5e3d4cce-3c20-4b4d-9d88-dfc9bfd5cad3" />
 
 ---
+# Cart Page
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-16 203731" src="https://github.com/user-attachments/assets/e3dd5dbf-afe7-4763-b1db-b065a1905d23" />
+
+---
 
 #  Successfully page
 
