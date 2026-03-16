@@ -1,13 +1,26 @@
 # Product Dashboard (Django)
 
 ## Project Overview
-This project is a Product Dashboard built using Django.
 
-Features:
+The Product Dashboard is a web application built using Python and Django that allows users to manage products and simulate a simple shopping experience.
+
+The system provides features such as user authentication, Google social login, product management, cart functionality, and checkout process. The goal of the project is to demonstrate how a basic e-commerce workflow can be implemented using Django.
+
+Users can securely register or log in to the platform, add products to the dashboard, and manage them through a simple interface. Products can then be added to a shopping cart and processed through a checkout flow that ends with a confirmation success page.
+
+The backend of the application is built using Django, which handles authentication, database operations, and routing. The application uses SQLite as the database to store product data. User authentication is enhanced with Google OAuth integration using django-allauth.
+
+The frontend is implemented using HTML and CSS, and it follows responsive UI principles inspired by the provided design kit.
+
+# Features:
 - User Authentication
+  
 - Google Social Login
+  
 - Product Management
+  
 - Shopping Cart
+  
 - Checkout System
 
 ## Installation
