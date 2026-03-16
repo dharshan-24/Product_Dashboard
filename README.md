@@ -33,6 +33,7 @@ python manage.py runserver
 ## Google Login Setup
 
 1. Create Google OAuth Client
+   
 2. Add redirect URL:
 
 http://localhost:8000/accounts/google/login/callback/
@@ -42,16 +43,23 @@ http://localhost:8000/accounts/google/login/callback/
 ## Tech Stack
 
 Backend: Django
+
 Database: SQLite
+
 Frontend: HTML, CSS, Bootstrap
 
 ## Final Features Your Project Must Show
 
 ✔ Register/Login
+
 ✔ Google Login
+
 ✔ Dashboard
+
 ✔ Add Product
+
 ✔ Product List
+
 ✔ Cart
 ✔ Checkout
 ✔ Success Page
