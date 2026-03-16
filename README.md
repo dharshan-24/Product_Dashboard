@@ -72,6 +72,65 @@ Frontend: HTML, CSS, Bootstrap
 
 ---
 
+# 📁 Project Structure
+
+product_dashboard
+│
+├── product_dashboard
+│   ├── settings.py
+│   ├── urls.py
+│
+├── store
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── templates
+│       ├── dashboard.html
+│       ├── add_product.html
+│       ├── cart.html
+│       ├── checkout.html
+│       └── success.html
+│
+├── media
+├── db.sqlite3
+└── manage.py
+
+---
+
+# ⚙️ Setup Instructions
+
+1️⃣ Clone Project
+
+git clone <repository-url>
+
+cd product_dashboard
+
+2️⃣ Install Dependencies
+
+pip install django
+
+pip install django-allauth
+
+pip install pillow
+
+3️⃣ Run Migrations
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+4️⃣ Create Superuser
+
+python manage.py createsuperuser
+
+5️⃣ Run Server
+
+python manage.py runserver
+
+#Open browser:
+
+http://127.0.0.1:8000
+
 ## UI Page project
 
 # Login Page
